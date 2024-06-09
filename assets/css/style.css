@@ -17,6 +17,11 @@
     --bg-text: #fdf4ff;
     --bg-terd:#f0a7ff;
     --bg-card: #dbdbdc;
+    --bg-footer: #dcdcdc;
+    --color-copy: #656565;
+    --color-face: #3b5998;
+    --color-insta: #D43089;
+    --color-tiktok: #FE2C55;
 }
 
 body {
