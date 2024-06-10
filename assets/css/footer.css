@@ -87,9 +87,9 @@
     bottom: 30px;
     right: 0;
     display: flex;
-
     justify-content: flex-end;
     align-items: flex-end;
+    
 }
 .icon__wtp {
     width: 3rem;
