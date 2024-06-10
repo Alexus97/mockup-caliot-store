@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
+    
 }
 
 .footer__media {
@@ -37,17 +38,21 @@
     border: 1px solid #ffffff;
     border-radius: 50%;
     box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+    transition: 0.3s ease-in-out;
 }
 
 .fa__facebook:hover {
+    transform: scale(1.2)translateY(-10px);
     background-color: var(--color-face);
 }
 
 .fa__insta:hover {
+    transform: scale(1.2)translateY(-10px);
     background-color: var(--color-insta);
 }
 
 .fa__tiktok:hover {
+    transform: scale(1.2)translateY(-10px);
     background-color: var(--color-tiktok);
 }
 
@@ -57,8 +62,6 @@
     align-items: center;
 
 }
-
-
 
 .footer__nav {
     margin-top: 1.5rem;
@@ -76,4 +79,19 @@
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     color: var(--color-copy);
+}
+
+.footer__btn {
+    position: fixed;
+    top: 20px;
+    bottom: 30px;
+    right: 0;
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.icon__wtp {
+    width: 3rem;
+    height: 3rem;
 }

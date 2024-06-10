@@ -1,8 +1,21 @@
 /* responsive */
 
-@media (min-width: 768px){
+
+@media (max-width: 768px){
     .nav__menu {
         display: none;
+    }
+
+    .fa__facebook {
+        background-color: var(--color-face);
+    }
+
+    .fa__insta {
+        background-color: var(--color-insta);
+    }
+
+    .fa__tiktok {
+        background-color: var(--color-tiktok);
     }
 
 }
